@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.3rem;
+  color: RGB(80,78,71);
+}
+
+.container {
+  margin: 0 auto;
+  width: 360px;
+  text-align: centre;
+  padding: 15px;
+  border: 1.5px rgb(80,78,71) solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(169,169,169);
+}
+
+h3 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 15px;
+  letter-spacing: 1.5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 300px;
+  border-radius: 5px;
+  border: 0.5px white solid;
+  box-shadow: 2px 2px 2px rgb(169,169,169);
+}
+
+.animal-information {
+  width: 300px;
+  border: 1px rgb(80,78,71) solid;
+  box-shadow: 2px 2px 2px rgb(169,169,169);
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 5%;
+  background-color: rgb(241,236,232);
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.animal-information p:first-child {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.animal-information ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.animal-information li {
+  padding: 3px 0;
+}
+
+.animal-information span {
+  font-weight: bold;
+}
+
+.animal-information p {
+  text-align: justify;
+  margin-top: 10px;
+}
